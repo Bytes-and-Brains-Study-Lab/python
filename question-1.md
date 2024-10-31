@@ -1,4 +1,5 @@
-# Question-1
+# Encoding and Decoding a string with simple scheme
+
 In an encoding scheme when characters are consecutive, it must be shortened by encoding it with #count[char]<br>
 Eg: the character string YYYYY, is expressed as #5Y.<br>
 If a character repeats consecutively two or more times, encode it in the format #count[char]. If # is present in the string, encode it as ##.<br>
