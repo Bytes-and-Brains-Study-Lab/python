@@ -8,14 +8,14 @@
 - Git is a command-line tool, but there are also graphical user interfaces available for Git (eg: Inside Pycharm/IntelliJ etc)
 
 #### Git Basics
-- **Workflow**
+- **Workflow**<br><br>
   ![Image](https://cdn-media-1.freecodecamp.org/images/1*iL2J8k4ygQlg3xriKGimbQ.png)
   - First 3 boxes are hosted on your local machine
   - Last box (Remote Repo) hosts the project on internet, team members can push/pull changes to/from this repo
   - Examples of remote repos: github.com (free/enterprise), gitlab.com (free/enterprise), bitbucket.org (free/enterprise), Azure Devops (enterprise) 
   ![Image](https://images.javatpoint.com/tutorial/git/images/git-remote.png)
-- **Branching and merging**
-  ![Image](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+- **Branching and merging**<br><br>
+  <img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="drawing" style="width:500px;"/>
   - Helps team members work concurrently
   - Individuals working on their own can benefit from the ability to work on independent streams of changes
   - Branches can be created for releases, features, bug fixes, hot fixes, experiments, prototypes, documentation, configuration etc
@@ -42,3 +42,10 @@
   - Follow instructions in [video](https://youtu.be/6-VYUYWsnYA)
     - Create a new branch with your name or any other name and not question-3 as shown in video
     - Create access token for push to remote repo - refer [link](https://docs.catalyst.zoho.com/en/tutorials/githubbot/java/generate-personal-access-token/)
+  - Additional things to try
+    - Change file again and see the file color in commit window, why is it blue ?
+    - Try to 'Commit and Push' changes to remote repo instead of just 'Commit'
+    - Try to delete the local and remote branches
+    - Try to merge the branch to master, why does it throw error ?
+    - Once merged to master, update local master branch
+    - Merge main into your branch ....
